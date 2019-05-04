@@ -11,13 +11,18 @@ fun main(){
     println("pet2: $pet2")
     println("pet3: $pet3")
 
+    var maxSize = readLine()!!.toInt()
     // Write App in Array
-    var listOfPets:Array<String> = Array(3){""}
-    for(i in 0..2){
+    var listOfPets:Array<String> = Array(5){""}
+    for(i in 0 until maxSize){
         listOfPets[i] = readLine()!!.toString()
     }
 
-    for(i in 0..2){
+    for(i in 0 until maxSize){
         print("Pet $i: ${listOfPets[i]}")
     }
+
+
+
+
 }
