@@ -18,4 +18,15 @@ class Car(val type:String, val Model:Int, val price:Double, val milesDrive:Int, 
 fun main(){
     val car = Car("BMW",2015,10000.0,105,"Hussein Alrubyaye") // this is instance of the class
     val car2 = Car("Toyota",2019,39000.0,10,"Jena Alrubyaye")
+    println(car2.type)
+    println(car2.owner)
+    println(car2.getCarPrice())
+
+    val listOfCar = arrayListOf<Car>()
+    listOfCar.add(car)
+    listOfCar.add(car2)
+
+    for(car in listOfCar){
+        println(car.getCarPrice())
+    }
 }
