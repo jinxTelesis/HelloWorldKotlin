@@ -7,17 +7,17 @@ abstract class CreditCredit(){
     abstract fun newCredit()
 }
 
-class UserInfo(): CreditCard(){
-
-    fun getInfo():String{
-        return CreditCard();
-    }
-
-    override fun newCredit() {}
-}
-
-fun main(args:Array<String>){
-
-
-    println(credit.CreditId())
-}
+//class UserInfo(): CreditCard(){
+//
+//    fun getInfo():String{
+//        return CreditCard();
+//    }
+//
+//    override fun newCredit() {}
+//}
+//
+//fun main(args:Array<String>){
+//
+//
+//    println(credit.CreditId())
+//}
