@@ -8,7 +8,7 @@ class Person2(var name:String, var age:Int) :Comparable<Person2>{
 
     override fun compareTo(other: Person2): Int {
         return this.age - other.age // asec
-        // desc returh other.age - this.age 
+        // desc returh other.age - this.age
     }
 }
 
