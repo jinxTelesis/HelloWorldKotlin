@@ -6,13 +6,13 @@ fun main(){
     val GPA = 3.8
 
 
-    val isQualifed = if(isMarried==true && GPA>=3.8){
-        isQualifed=1
-    } else{
-        0
-    }
+//    val isQualifed = if(isMarried==true && GPA>=3.8){
+//        isQualifed=1
+//    } else{
+//        0
+//    }
 
-    print(isQualifed)
+    //print(isQualifed)
 
     val isGood = when(GPA){
         4.0 -> true
